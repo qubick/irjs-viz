@@ -34,7 +34,8 @@ domout.html(viz.table(data))
 var data = [
     [5, 5],
     [10, 10],
-    [15, 15]
+    [15, 15],
+	 [15, 10]
 ]
 
 domout.html('<h1>Scatter Plot</h1>')

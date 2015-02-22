@@ -1,9 +1,11 @@
 var render = require('../lib/viz')
-	,domout = require('../lib/domout')
+//	,domout = require('../lib/domout')
 
 data = [
-	['Jonh', 35],
-	['Adam', 48]
+	['Jonh', 3, 5],
+	['Adam', 4, 8]
 ]
 
-domout.svg(render.table(data));
+//domout.svg(
+render.table(data)
+//);

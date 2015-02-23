@@ -1,7 +1,5 @@
-table
-
-svg(str = td, cols = length)
-	each c in length
+table(border=1)
+	each row in data
 		tr
-			each d in td
-				td d
+			each col in row
+				td(style="width:100")=col

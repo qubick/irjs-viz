@@ -1,7 +1,7 @@
 svg(width=w, height=h)
     each r in data
-        line(x1=r.x1, y1=r.y1, x2 = r.x2, y2=r.y2, style="stroke:rgb(255,0,0);stroke-width:2")
+        line(x1=r.x1, y1=h-r.y1, x2 = r.x2, y2=h-r.y2, style="stroke:rgb(255,0,0);stroke-width:2")
     each m in data
-        circle(cx=m.x2, cy=m.y2, r="2")
+        circle(cx=m.x2, cy=m.y2, r="2", y = h-m.y2)
     
     

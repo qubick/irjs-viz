@@ -1,7 +1,7 @@
 var domout = require('./lib/domout'),
     viz = require('./lib/viz')
 
-var data = [5, 10, 15, 20, 25]
+var data = [5, 10, 15, 20, 25, 160]
 
 domout.html('<h1>Circles</h1>')
 
@@ -34,7 +34,8 @@ domout.html(viz.table(data))
 var data = [
     [5, 5],
     [10, 10],
-    [15, 15]
+    [15, 15],
+	 [15, 10]
 ]
 
 domout.html('<h1>Scatter Plot</h1>')

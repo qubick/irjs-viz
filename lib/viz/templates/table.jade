@@ -1,9 +1,5 @@
-table
-    tr
-        td John
-        td 3
-        td 5
-    tr
-        td Adam
-        td 4
-        td 8
+table(border=1)
+	each row in data
+		tr
+			each col in row
+				td(style="width:100")=col

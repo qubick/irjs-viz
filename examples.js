@@ -13,9 +13,6 @@ domout.svg(viz.barchart(data, {
     title: 'some title'
 }))
 
-domout.html('<h1>Line Graph</h1>')
-domout.svg(viz.linegraph(data))
-
 domout.html('<h1>List</h1>')
 domout.html(viz.list(data))
 
@@ -35,8 +32,14 @@ var data = [
     [5, 5],
     [10, 10],
     [15, 15],
-	 [15, 10]
+	 [15, 10],
+	 [20, 13],
+	 [35, 40]
 ]
 
 domout.html('<h1>Scatter Plot</h1>')
 domout.svg(viz.scatterplot(data))
+
+domout.html('<h1>Line Graph</h1>')
+domout.svg(viz.linegraph(data))
+

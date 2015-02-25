@@ -1,7 +1,7 @@
 var domout = require('./lib/domout'),
     viz = require('./lib/viz')
 
-var data = [5, 10, 15, 20, 25, 70, 60]
+var data = [5, 50, 10, 10, 15, 20, 25, 70, 60]
 
 domout.html('<h1>Circles</h1>')
 

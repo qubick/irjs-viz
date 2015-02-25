@@ -18,8 +18,10 @@ domout.html(viz.list(data))
 
 domout.html('<h1>JSON</h1>')
 var data = [
-    ['John', 3, 5],
-    ['Adam', 4, 8]
+    ['John', 3, 5, 'Boulder'],
+    ['Adam', 4, 8, 'Denver'],
+	 ['Jeeeun', 1, 2, 'Seoul'],
+	 ['Viki', 2, 10, 'Colorado']
 ]
 
 domout.html(viz.json(data))
